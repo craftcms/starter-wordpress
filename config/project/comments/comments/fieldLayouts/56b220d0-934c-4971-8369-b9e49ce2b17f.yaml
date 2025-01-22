@@ -15,22 +15,6 @@ tabs:
         uid: a12964f8-7513-4766-9075-058fe250e15e
         userCondition: null
         warning: null
-      -
-        dateAdded: '2024-11-13T15:25:16+00:00'
-        elementCondition: null
-        fieldUid: 4d06012a-2d8a-4e92-bf6b-de74bdd1be0b # WordPress ID
-        handle: null
-        includeInCards: false
-        instructions: null
-        label: null
-        providesThumbs: false
-        required: false
-        tip: null
-        type: craft\fieldlayoutelements\CustomField
-        uid: 96d6c76a-2265-409a-8f5b-3074daac3c33
-        userCondition: null
-        warning: null
-        width: 100
     name: 'Comment Form'
     uid: a1534220-1fed-4239-b8bd-4cd7fa06d077
     userCondition: null

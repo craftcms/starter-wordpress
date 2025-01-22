@@ -1,6 +1,6 @@
-color: cyan
+color: null
 fieldLayouts:
-  f8066ef4-af43-499f-84c9-6d7d2e0f5da4:
+  a0633445-1f10-4bbd-8332-8e2015b292bd:
     tabs:
       -
         elementCondition: null
@@ -10,7 +10,7 @@ fieldLayouts:
             autocomplete: false
             autocorrect: true
             class: null
-            dateAdded: '2024-11-13T07:14:48-08:00'
+            dateAdded: '2024-11-12T08:08:50+00:00'
             disabled: false
             elementCondition: null
             id: null
@@ -31,37 +31,21 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\entries\EntryTitleField
-            uid: 2f4e4d3b-74b6-4de3-8a23-729286420be1
-            userCondition: null
-            warning: null
-            width: 100
-          -
-            dateAdded: '2024-11-13T07:14:48-08:00'
-            elementCondition: null
-            fieldUid: 22e94a09-0f7c-4a1f-9981-7fc0605d83fa # Link URL
-            handle: buttonUrl
-            includeInCards: true
-            instructions: null
-            label: null
-            providesThumbs: false
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: 24dc5323-deb9-4d06-bfad-544ad26452b2
+            uid: 6c5d26dd-4c27-4ad3-b179-9a4bcbc3c198
             userCondition: null
             warning: null
             width: 100
         name: Content
-        uid: b567cdec-aaf9-48a6-90ef-55277880c665
+        uid: d419f32f-2565-4324-bc15-dbbdb26377f6
         userCondition: null
-handle: button
+handle: home
 hasTitleField: true
-icon: link
-name: Button
-showSlugField: false
-showStatusField: false
+icon: house
+name: Home
+showSlugField: true
+showStatusField: true
 slugTranslationKeyFormat: null
 slugTranslationMethod: site
-titleFormat: null
+titleFormat: ''
 titleTranslationKeyFormat: null
 titleTranslationMethod: site

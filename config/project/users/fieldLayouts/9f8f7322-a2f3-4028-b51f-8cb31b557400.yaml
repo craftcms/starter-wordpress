@@ -112,25 +112,3 @@ tabs:
     name: Content
     uid: a3aba2ec-58b5-4072-8579-1d7b4cf9308b
     userCondition: null
-  -
-    elementCondition: null
-    elements:
-      -
-        dateAdded: '2024-11-13T07:14:36-08:00'
-        elementCondition: null
-        fieldUid: 4d06012a-2d8a-4e92-bf6b-de74bdd1be0b # WordPress ID
-        handle: null
-        includeInCards: false
-        instructions: null
-        label: null
-        providesThumbs: false
-        required: false
-        tip: null
-        type: craft\fieldlayoutelements\CustomField
-        uid: b49b7043-67de-4df9-839a-4bcbce02c5a5
-        userCondition: null
-        warning: null
-        width: 100
-    name: WordPress
-    uid: 5ac74434-e3bc-440d-8254-0fbf2641663f
-    userCondition: null
