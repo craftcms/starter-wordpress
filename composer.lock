@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5f2a5644c929237bcc5d4f420356ba88",
+    "content-hash": "fa27de21054a2d21ea5c48b0ebcc664c",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -254,11 +254,11 @@
         },
         {
             "name": "craftcms/ckeditor",
-            "version": "4.6.0",
+            "version": "4.7.0",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/craftcms/ckeditor/zipball/b838205bb2de62a86863548454bd42ee0b3fd5c9",
-                "reference": "b838205bb2de62a86863548454bd42ee0b3fd5c9",
+                "url": "https://api.github.com/repos/craftcms/ckeditor/zipball/ff0f03429d51d8237784e5738d478e5868fc88d9",
+                "reference": "ff0f03429d51d8237784e5738d478e5868fc88d9",
                 "shasum": ""
             },
             "require": {
@@ -302,15 +302,15 @@
                 "docs": "https://github.com/craftcms/ckeditor/blob/master/README.md",
                 "rss": "https://github.com/craftcms/ckeditor/commits/master.atom"
             },
-            "time": "2025-02-18T22:56:36+00:00"
+            "time": "2025-04-21T23:09:09+00:00"
         },
         {
             "name": "craftcms/cms",
-            "version": "5.7.0",
+            "version": "5.7.3",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/craftcms/cms/zipball/45b4a1a56a82ad85d8d3442fcf914f35cd62e73b",
-                "reference": "45b4a1a56a82ad85d8d3442fcf914f35cd62e73b",
+                "url": "https://api.github.com/repos/craftcms/cms/zipball/c55baf92246ee7c4088cc7fa3942dcd2c93c1a27",
+                "reference": "c55baf92246ee7c4088cc7fa3942dcd2c93c1a27",
                 "shasum": ""
             },
             "require": {
@@ -358,14 +358,11 @@
                 "twig/twig": "~3.15.0",
                 "voku/stringy": "^6.4.0",
                 "web-auth/webauthn-lib": "~4.9.0",
-                "webonyx/graphql-php": "~14.11.5",
+                "webonyx/graphql-php": "~14.11.10",
                 "yiisoft/yii2": "~2.0.52.0",
                 "yiisoft/yii2-debug": "~2.1.26.0",
                 "yiisoft/yii2-queue": "~2.3.2",
                 "yiisoft/yii2-symfonymailer": "^4.0.0"
-            },
-            "conflict": {
-                "webonyx/graphql-php": "14.11.7"
             },
             "provide": {
                 "bower-asset/inputmask": "5.0.9",
@@ -410,7 +407,7 @@
                 "docs": "https://craftcms.com/docs/5.x/",
                 "rss": "https://github.com/craftcms/cms/releases.atom"
             },
-            "time": "2025-04-15T19:50:36+00:00"
+            "time": "2025-04-23T17:03:05+00:00"
         },
         {
             "name": "craftcms/html-field",
@@ -5144,16 +5141,16 @@
         },
         {
             "name": "verbb/base",
-            "version": "3.0.7",
+            "version": "3.0.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/verbb/verbb-base.git",
-                "reference": "8e44429c9b5df42bd0db90242bafeb440d870a99"
+                "reference": "a92deca1ae8443479b8b01d78bd0fe3b4375b722"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/verbb/verbb-base/zipball/8e44429c9b5df42bd0db90242bafeb440d870a99",
-                "reference": "8e44429c9b5df42bd0db90242bafeb440d870a99",
+                "url": "https://api.github.com/repos/verbb/verbb-base/zipball/a92deca1ae8443479b8b01d78bd0fe3b4375b722",
+                "reference": "a92deca1ae8443479b8b01d78bd0fe3b4375b722",
                 "shasum": ""
             },
             "require": {
@@ -5190,15 +5187,15 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-04-11T09:34:29+00:00"
+            "time": "2025-04-16T05:18:31+00:00"
         },
         {
             "name": "verbb/comments",
-            "version": "3.0.6",
+            "version": "3.0.7",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/verbb/comments/zipball/0838464f85a7bc7751098700d1064703ad235385",
-                "reference": "0838464f85a7bc7751098700d1064703ad235385",
+                "url": "https://api.github.com/repos/verbb/comments/zipball/a35dcb3c78a9b5deac636f53e426b189042d2dd5",
+                "reference": "a35dcb3c78a9b5deac636f53e426b189042d2dd5",
                 "shasum": ""
             },
             "require": {
@@ -5243,7 +5240,7 @@
                 "docs": "https://github.com/verbb/comments",
                 "rss": "https://github.com/verbb/comments/commits/v2.atom"
             },
-            "time": "2025-03-04T19:04:21+00:00"
+            "time": "2025-04-16T23:05:38+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
