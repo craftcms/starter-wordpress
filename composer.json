@@ -2,9 +2,9 @@
   "minimum-stability": "dev",
   "prefer-stable": true,
   "require": {
-    "craftcms/ckeditor": "4.3.1",
-    "craftcms/cms": "5.5.x-dev as 5.5.0-alpha",
-    "verbb/comments": "3.0.3",
+    "craftcms/ckeditor": "^4.7.0",
+    "craftcms/cms": "^5.7.3",
+    "verbb/comments": "^3.0.7",
     "vlucas/phpdotenv": "^5.4.0"
   },
   "require-dev": {
@@ -28,15 +28,11 @@
       "@php -r \"file_exists('.env') || copy('.env.example.dev', '.env');\""
     ]
   },
-  "repositories": {
-    "wp-import": {
-      "type": "vcs",
-      "url": "https://github.com/craftcms/wp-import"
-    },
-    "0": {
+  "repositories": [
+    {
       "type": "composer",
       "url": "https://composer.craftcms.com",
       "canonical": false
     }
-  }
+  ]
 }

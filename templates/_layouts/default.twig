@@ -1,4 +1,5 @@
 {% set global = craft.entries.section('global').one() %}
+{% set pageTitle = pageTitle ?? entry.title ?? siteName %}
 
 <!DOCTYPE html>
 <html lang="en-US">
@@ -12,7 +13,7 @@
   <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
   <link rel="manifest" href="/manifest.webmanifest" />
   <meta charset="utf-8" />
-  <title>{% if entry is defined %}{{ entry.title }}{% endif %}{% block title %}{% endblock %} | {{ siteName }}</title>
+  <title>{% block title %}{{ pageTitle }}{% endblock %}{% if pageTitle != siteName %} | {{ siteName }}{% endif %}</title>
   <meta name="referrer" content="origin-when-cross-origin" />
 
   {# Include Tailwind Play CDN for basic styling #}
@@ -80,7 +81,7 @@
   
   {% include "_partials/header" %}
 
-  <main class="page {% if entry is defined %}{{ entry.slug }}{% endif %}" id="main" tabindex="-1">
+  <main class="page min-h-screen {% if entry is defined %}{{ entry.slug }}{% endif %}" id="main" tabindex="-1">
     {% block content %}{% endblock %}
   </main>
 

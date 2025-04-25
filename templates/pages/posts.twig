@@ -12,7 +12,7 @@
           {% set posts = craft.entries.section('posts').id('not ' ~ entry.id).limit(3).all() %}
           {% for post in posts %}
             {{ post.teaser(post) }}
-          {% endfor %}    
+          {% endfor %}
         </div>
     </section>
   </section>

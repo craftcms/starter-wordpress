@@ -1,5 +1,12 @@
+{% set styles = {
+  'background-color': entry.backgroundColor,
+  'color': entry.textColor,
+} | filter %}
+
+{% set css = styles | map((s, p) => "#{p}: #{s};") | join %}
+
 <aside class="group-block my-8">
-  <div class="rounded bg-slate-100 p-8" {% if entry.textColor or entry.backgroundColor %}style="{% if entry.textColor %}color: {{ entry.textColor }};"{% endif %} {% if entry.backgroundColor %}style="background-color: {{ entry.backgroundColor }};{% endif %}>"{% endif %}>
+  <div class="rounded bg-slate-100 p-8" style="{{ css }}">
     {{ entry.postContent }}
   </div>
 </aside>

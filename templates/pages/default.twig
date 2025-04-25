@@ -3,7 +3,9 @@
 {% block content %}
   {% include '_partials/cover' %}
   <section class="page__content">
-    {% include '_partials/content' %}
+    {% if entry is defined %}
+      {% include '_partials/content' %}
+    {% endif %}
     {% block landing %}{% endblock %}
   </section>
 {% endblock %}
